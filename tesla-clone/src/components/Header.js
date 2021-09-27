@@ -17,11 +17,11 @@ function Header() {
       </a>
       <Menu>
         {cars &&
-          cars.map((car, index) => {
+          cars.map((car, index) => (
             <a key={index} href="#">
               {car}
-            </a>;
-          })}
+            </a>
+          ))}
       </Menu>
       <RightMenu>
         <a href="#">Shop</a>
