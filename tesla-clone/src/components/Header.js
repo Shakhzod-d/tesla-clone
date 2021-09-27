@@ -32,7 +32,7 @@ function Header() {
         <CloseWrapper>
           <CustomClose onClick={() => setBurgerStatus(false)} />
         </CloseWrapper>
-
+{/* some comment */}
         {cars &&
           cars.map((car, index) => (
             <li key={index}>
